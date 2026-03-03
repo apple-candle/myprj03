@@ -8,7 +8,7 @@ const index_form = document.getElementById('index_form');
 const sub_form = document.getElementById('sub-form');
 
 const params = new URLSearchParams(window.location.search);
-const keywordValue = params.get('keyword');
+const keywordValue = params.get('text');
 
 if (keywordValue) {
     if (sub_output) {
