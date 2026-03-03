@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <h1>index 페이지입니다</h1>
     <hr>
-    <form action="sub.html">
+    <form id="index_form" action="sub.html">
         <input type="text" id="input" placeholder="아무거나 넣어보세요">
-        <button type="submit">이동</button>
+        <button type="submit" id="index_submit">이동</button>
     </form>
-
-    <script src="index.js"></script>
+    <div id="sub_output"></div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
